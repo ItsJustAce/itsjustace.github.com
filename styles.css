@@ -25,10 +25,13 @@ body {
   h1 {
     color: whitesmoke;
   }
+  h2 {
+    color: whitesmoke;
+  }
   p {
     color: white;
   }
-  
+
  .css-3d-text {
     font-size: 92px;
     color: #3892a6;
