@@ -6,6 +6,17 @@ body {
 
     background-color: black;
   }
+
+  a {
+    text-decoration-color: grey;
+    text-decoration-line: none;
+  }
+  a:link {
+    color: white;
+  }
+  a:hover {
+    color: gray;
+  }
   
   h1 {
     color: whitesmoke;
