@@ -23,9 +23,11 @@ body {
   }
   
   h1 {
+    font-size: xx-large;
     color: whitesmoke;
   }
   h2 {
+    font-size: x-large;
     color: whitesmoke;
   }
   p {
