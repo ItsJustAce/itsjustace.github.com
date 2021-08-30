@@ -8,20 +8,20 @@ body {
 }
 
 h1 {
-    font-size: xx-large;
+    font-size: 90px;
     color: #E63946;
     line-height: 0%;
     margin-top: 50px;
 }
 
 h2 {
-    font-size: large;
+    font-size: 30px;
     color: #E63946;
     line-height: 0%;
 }
 
 p {
-    font-size: large;
+    font-size: 18px;
     color: #1D3557;
     line-height: 135%;
 }
