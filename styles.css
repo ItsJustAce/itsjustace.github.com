@@ -44,6 +44,16 @@ p {
     line-height: 135%;
 }
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    color: #1D3557;
+    line-height: 135%;
+}
 
 div {
     height: 200px;
