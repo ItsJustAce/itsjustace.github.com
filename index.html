@@ -14,20 +14,45 @@
             transition: opacity 2s;
             transition-timing-function: ease-out;
         }
+        .dropdown {
+        position: relative;
+        display: inline-block;
+        }
+
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
     </style>
 </head>
 
 <body onload="document.body.style.opacity='1'">
     <!-- brand new site hello there i made this myself copyright retraace -->
-    
-    <h1>retraace</h1>
-    <h2>home‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎  ‎‏‏‎  ‎‏‏‎  ‎‏‏‎  ‎‏‏‎  ‎‏‏‎  ‎‏‏‎  ‎‏‏‎  ‎‏‏‎ ‎‏‏‎  ‎‏‏‎  ‎‏‏‎  ‎‏‏‎  ‎‏‏‎  ‎‏‏‎  ‎‏‏‎  ‎‏‏‎  ‎‏‏‎  ‎‏‏‎  ‎‏‏‎  ‎‏‏‎ ‎‏‏‎  ‎‏ ‎</h2>
-    <div>
-        
-        <p>hello and welcome to the website of retraace!!</p text-align: center;>
-        <p>retraace</p text-align: center;>
 
+    <div>
+        <h1>retraace</h1>
+        <h2>
+            <a href="/about.html">about</a> :
+            <a href="/contact.html">contact</a> :
+            <a href="/music.html">music</a>
+        </h2> 
+        <div class="dropdown">
+            <h2>[+]</h2>
+            <div class="dropdown-content">
+              <h2>Hello World!</h2>
+            </div>
+        </div>
     </div>
+
     
 </body>
 </html>

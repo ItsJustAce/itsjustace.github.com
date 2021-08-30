@@ -17,14 +17,31 @@ h1 {
 h2 {
     font-size: 30px;
     color: #E63946;
-    line-height: 0%;
 }
+
+a {
+    text-decoration-color: grey;
+    text-decoration-line: none;
+    
+}
+
+a:visited {
+    color: #1D3557;
+}
+a:link {
+    color: #1D3557;
+}
+a:hover {
+    color: #1D3557;
+}
+  
 
 p {
     font-size: 18px;
     color: #1D3557;
     line-height: 135%;
 }
+
 
 div {
     height: 200px;
@@ -36,3 +53,28 @@ div {
     margin-top: -100px;
     margin-left: -200px;
 }
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
