@@ -1,0 +1,70 @@
+body {
+    font-family: 'Unbounded', cursive;
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 3em;
+    color:  #ff0044;
+    /*text-shadow: 0.8vw 0.8vw #a22633;*/
+}
+p {
+    font-size: 0.7em;
+}
+a:visited {
+    color: #265c42;
+  }
+
+a:hover {
+    color: #265c42;
+}
+
+a {
+    color: #265c42;
+    text-decoration-color: grey;
+    text-decoration-line: none;
+}
+
+div {
+    background-color: #e5e5e5;
+    margin: auto;
+    width: 30%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    color: #1D3557;
+    line-height: 135%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+
+}
+
+.music-item {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+
+}
+
+.music-item p {
+    padding-bottom: 2em;
+}
+
